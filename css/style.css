@@ -1,0 +1,58 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container-banner {
+  height: 2500px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 480px;
+}
+
+.banner {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  background: #121214;
+  position: relative;
+}
+
+
+.banner .text {
+  width: 60%;
+  position: relative;
+}
+
+.banner .text h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+
+.img-icon-fire {
+  height: 100%;
+  position: absolute;
+  right: 10px;
+  overflow: hidden;
+}
+
+#icon-heart {
+  width: 400px;
+  margin-top: 80px;
+  position: relative;
+  filter: drop-shadow(-40px 0px 30px rgba(0, 0, 0, 0.5));
+}
+
+#icon-fire {
+  width: 300px;
+  position: relative;
+  margin-top: -100px;
+  opacity: 0.6;
+}
